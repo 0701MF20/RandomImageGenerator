@@ -193,7 +193,8 @@ let urlIs="https://enchanting-crisp-36d51a.netlify.app/"
       </FacebookShareButton>
 
       <TwitterShareButton
-        url={getCurrentImageUrl()}
+        // url={getCurrentImageUrl()}
+        url={urlIs}
         title="Random Image Generator"
         hashtags={['#RandomImage']}
       >
@@ -201,11 +202,12 @@ let urlIs="https://enchanting-crisp-36d51a.netlify.app/"
       </TwitterShareButton>
 
       <WhatsappShareButton
-        url={()=>
-            {
-                console.log(getCurrentImageUrl())
-                getCurrentImageUrl()
-            }}
+        // url={()=>
+        //     {
+        //         console.log(getCurrentImageUrl())
+        //         getCurrentImageUrl()
+        //     }}
+        url={urlIs}
         title="Random Image Generator"
       >
         <button>Share on Whatsapp</button>
