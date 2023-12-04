@@ -159,9 +159,11 @@ function Home() {
     fetchRandomImage(category);
   }
 
-  const getCurrentImageUrl = () => {
-    return window.location.origin + '/image/' + image; // Modify the URL structure as needed
-  }
+//   const getCurrentImageUrl = () => {
+//     return window.location.origin + '/image/' + image; // Modify the URL structure as needed
+//   }
+
+let urlIs="https://enchanting-crisp-36d51a.netlify.app/"
 
   return (
     <div>
@@ -182,7 +184,8 @@ function Home() {
         <button type="submit" id="submit">Submit</button>
       </form>
       <FacebookShareButton
-        url={getCurrentImageUrl()}
+        // url={getCurrentImageUrl()}
+        url={urlIs}
         quote="Random Image Generator"
         hashtag="#RandomImage"
       >
