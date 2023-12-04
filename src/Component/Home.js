@@ -185,8 +185,8 @@ let urlIs="https://enchanting-crisp-36d51a.netlify.app/"
       </form>
       <FacebookShareButton
         // url={getCurrentImageUrl()}
-        // url={urlIs}
-        // quote="Random Image Generator"
+        url={urlIs}
+        quote="Random Image Generatorsss"
         hashtag="#RandomImage"
       >
         <button>Share on Facebook</button>
