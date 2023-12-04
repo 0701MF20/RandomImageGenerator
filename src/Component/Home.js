@@ -165,6 +165,7 @@ function Home() {
 
   return (
     <div>
+        <h3>Random Image Generator</h3>
       {image ? (
         <img
           id="image"
